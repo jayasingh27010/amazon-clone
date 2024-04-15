@@ -187,7 +187,7 @@
     
 }
 .hero-section{
-    background-image:url(/amazon/hero.PNG);
+    background-image:url(hero.PNG);
     height:380px;
     display:flex;
     justify-content: center;
