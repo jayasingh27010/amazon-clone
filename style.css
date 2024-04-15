@@ -1,0 +1,356 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    width:100%;
+    height:60px;
+    background-color: #131921;
+    color:white;
+    display:flex;
+    align-items: center;
+}
+.nav-left{
+    width:270px;
+    height:60px;
+    display:flex;
+}
+.nav-logo{
+    height:50px;
+    width:112px;
+   
+    
+}
+.border {
+    border:2px solid transparent;
+}
+.border:hover{
+    border-color: white;
+}
+.nav-location{
+    width:150px;
+    height:50px;
+    display:flex;
+    margin-left:5px;
+    padding:0 9px;
+    align-items:center;
+    
+}
+.add-icon{
+    margin-top:15px;
+}
+
+
+.add-text{
+    margin-left:5px;
+    font-size:12px;
+    color:#ccc;
+}
+.country{
+    font-size:14px;
+    font-weight:700;
+    color:white;
+}
+.nav-fill{
+    display:flex;
+    height:40px;
+    width:380px;
+    border-radius:4px;
+    background-color:rgb(248, 188, 59);
+    
+}
+.nav-fill:hover{
+    border:2px solid orange;
+}
+.search-select{
+   width:50px;
+   text-align:center;
+   background-color:#E6E6E6;
+   border-top-left-radius:4px;
+   border-bottom-left-radius:4px;
+   border:none;
+}
+.search-input{
+    width:280px;
+    padding-left:5px;
+    font-size:0.9rem;
+    border:none;
+
+}
+.search-icon{
+    width:45px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:black;
+    font-size:1.2rem;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.nav-right{
+    display:flex;
+    margin-left:5px;
+}
+.nav-link{
+    display:flex;
+    height:50px;
+    padding:0 9px 5px;
+    width:74px;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.nav-link p{
+    font-size:14px;
+    font-weight:700;
+    padding-left:2px;
+}
+.nav-link select, .account select{
+    border:none;
+    color:white;
+   
+    
+    background-color:#131921;
+}
+.nav-account{
+    display:flex;
+    align-items: center;
+    height:50px;
+    width:140px;
+    padding:2px;
+   
+}
+.nav-account p, .nav-orders p{
+    font-size:12px;
+}
+.account{
+    display:flex;
+}
+.account p{
+    font-size:14px;
+    font-weight:700;
+}
+.nav-orders{
+    display:flex;
+    align-items: center;
+    height:50px;
+    padding:2px;
+    width:70px;
+}
+.nav-cart {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:6px;
+    height:50px;
+  
+}
+.nav-cart i{
+    width:40px;
+    height:40px;
+    font-size:2rem;
+    color:white;
+}
+.navbar-main{
+    background-color: #232f3e;
+    height:40px;
+    color:white;
+    display:flex;
+    align-items: center;
+}
+.nav-leftside{
+    width:60px;
+    height:40px;
+    display:flex;
+    font-weight:700;
+    align-items: center;
+    justify-content: center;
+}
+.nav-leftside i{
+    padding:0 4px;
+    font-size:1.2rem;
+}
+.nav-rightside{
+    display:flex;
+    font-size:14px;
+    font-weight:600;
+    height:40px;
+}
+.nav-p{
+    height:40px;
+    display:flex;
+    align-items: center;
+}
+.nav-rightside p{
+    padding:0 10px;
+    
+}
+.hero-section{
+    background-image:url(/amazon/hero.PNG);
+    height:380px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.hero-message{
+    background-color:white;
+    width:967px;
+    height:40px;
+    padding:10px 14px;
+    font-size:14px;
+    text-align:center;
+    position:relative;
+    bottom:28px;
+}
+.hero-message a:link{
+    text-decoration:none;
+}
+.hero-message a:hover{
+    text-decoration:underline;
+    color:red;
+}
+.grid-card{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 420px 420px;
+    background-color: #e2e7e6;
+}
+.grid-card h2{
+    font-size:21px;
+}
+.grid-card .grid-content{
+    padding:20px 15px;
+    margin:10px;
+    background-color:white;
+}
+.grid-inner{
+    margin-top:12px;
+    height:300px;
+}
+.grid-inner span{
+    font-size:12px;
+    color:#CC0C39;
+}
+ .red-icon{
+    background-color:#CC0C39;
+    border-radius:2px;
+    padding:4px 6px;
+    color:white !important;
+}
+
+.grid-link{
+    display:block;
+    font-size:14px;
+    color:#007185 ;
+    text-decoration:none;
+    padding-top:12px;
+   
+}
+.grid-link:hover{
+    color:red;
+    text-decoration: underline;
+}
+.grid-inner1{
+    padding: 10px 5px;
+    display:inline-block;
+}
+.grid-inner1 p{
+    font-size:12px;
+}
+.grid-inner2{
+    font-size:15px;
+    padding:5px 2px;
+    display:inline-block;
+}
+.grid-card2
+{  
+    background-color: #e2e7e6;
+    height:340px;
+    padding:20px 12px;
+}
+.grid-content2{
+    background-color:white;
+    height:280px;
+    padding:10px 20px;
+}
+.grid-content2 h2{
+    font-size:21px;
+}
+.grid-inner3 span{
+    display:inline-block;
+    text-align:center;
+    width:145px;
+}
+.navmainfooter{
+    background-color: #232F3E;
+}
+.footerbacktotop{
+    background-color: #37475A;
+    margin-bottom:30px;
+}
+.footerbacktotop span{
+    color:#FFF;
+    display:block;
+    text-align:center;
+    padding:15px 0;
+}
+.navfooterrow{
+    height:300px;
+    width:95%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+.navcolhead{
+    font-size:16px;
+    margin:6px 0 14px;
+    color:white;
+    font-weight:700;
+}
+.navfootercolumn ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.navfootercolumn ul li{
+    margin:0 0 10px;
+}
+.navfootercolumn ul li a{
+    text-decoration:none;
+    color:#DDDDDD;
+    font-size:14px;
+}
+.navfootercolumn ul li a:hover{
+    text-decoration:underline;
+}
+.navmainouter{
+    height:377px;
+    background-color: #131A22;
+    padding:30px 0;
+    font-size:12px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    grid-template-rows:auto auto auto auto;
+    column-gap: 3% ;
+    row-gap: 2%;
+}
+.descitem{
+    padding:0 9px;
+}
+.descitem a{
+    color:#DDDDDD;
+    text-decoration:none;
+}
+.descitem a:hover{
+    text-decoration:underline;
+}
+.descitem a span{
+    color:#999999;
+}
+.descposition{
+    grid-column-start: 2;
+}
